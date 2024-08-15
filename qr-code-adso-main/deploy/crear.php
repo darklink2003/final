@@ -7,10 +7,7 @@
     <title>Creación de Encuestas</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <style>
-        .mb-10 {
-            margin-bottom: 10px;
-        }
-        
+
         .mt-10 {
             margin-top: 10px;
         }
