@@ -1,0 +1,23 @@
+[30-Oct-2015 16:11:05 America/New_York] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: NO)' in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/config.php:2
+Stack trace:
+#0 /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/config.php(2): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/form_personas.php(47): include('/home/muffagco/...')
+#2 {main}
+  thrown in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/config.php on line 2
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/frame_1.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrspec.php on line 568
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_0/mask_21_0.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_1/mask_21_1.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_2/mask_21_2.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_3/mask_21_3.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_4/mask_21_4.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_5/mask_21_5.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_6/mask_21_6.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  mkdir(): No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 154
+[30-Oct-2015 16:45:38 America/New_York] PHP Warning:  file_put_contents(/home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/cache/mask_7/mask_21_7.dat): failed to open stream: No such file or directory in /home/muffagco/public_html/pruebas/adsi/EXPOSENA_G10/qr/qrmask.php on line 155

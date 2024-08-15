@@ -1,0 +1,61 @@
+
+
+
+.contenedor-usuario-no-bootstrap-1
+{
+    background-color: #00FFFF;
+    padding: 20px;
+    text-align: center;
+}
+
+.formulario
+{
+position: absolute;
+width: 50%;
+top: 2%;
+left:25%;
+
+}
+
+.contenedor-usuario-no-bootstrap-2
+{
+    background-color:  #55B1EE;
+    padding:10px;
+    text-align: center;
+}
+.contenedor-usuario-no-bootstrap-3
+{
+    background-color:  #55B1EE;
+    padding:10px;
+    text-align: center;
+}
+.imprimir
+{
+	position:absolute;
+	width:50%;
+	height:50%;
+	z-index:1;
+	left: 1%;
+	top: 2%;
+}
+.qr1
+{
+	position:absolute;
+	width:200px;
+	height:200px;
+	left: 52%;
+	top: 63%;
+}
+.nombres
+{
+position:absolute;
+top:43%;
+left:20%;	
+}
+
+#btn_imprimir
+{
+	position:absolute;
+	top:90%;
+	left:75%;
+}

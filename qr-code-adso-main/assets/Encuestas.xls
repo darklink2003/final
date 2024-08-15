@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <Worksheet ss:Name="Table1">
+  <Table>
+   <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>   <Column ss:Index="2" ss:AutoFitWidth="0" ss:Width="110"/>   <Row>
+    <Cell><Data ss:Type="String">texto_pregunta</Data></Cell>
+    <Cell><Data ss:Type="String">texto_respuesta</Data></Cell>
+    <Cell><Data ss:Type="String">documento</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Cómo califica usted la experiencia en Exposena 2016?</Data></Cell>
+    <Cell><Data ss:Type="String">Buena</Data></Cell>
+    <Cell><Data ss:Type="Number">89</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Cómo califica usted la experiencia en Exposena 2016?</Data></Cell>
+    <Cell><Data ss:Type="String">Excelente</Data></Cell>
+    <Cell><Data ss:Type="Number">84</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Cómo califica usted la experiencia en Exposena 2016?</Data></Cell>
+    <Cell><Data ss:Type="String">Mala</Data></Cell>
+    <Cell><Data ss:Type="Number">1</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Cómo califica usted la experiencia en Exposena 2016?</Data></Cell>
+    <Cell><Data ss:Type="String">Regular</Data></Cell>
+    <Cell><Data ss:Type="Number">10</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Considera que la actividad le puede beneficiar y ser aplicada  en su vida laboral?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">15</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Considera que la actividad le puede beneficiar y ser aplicada  en su vida laboral?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">167</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Exposena cumplió sus expectativas?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">13</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Exposena cumplió sus expectativas?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">172</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Insentivaría a otras personas a ser partícipes de éste evento?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">3</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Insentivaría a otras personas a ser partícipes de éste evento?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">179</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Las instalaciones son visualmente agradables y cómodas para el desarrollo de las actividades?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">24</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Las instalaciones son visualmente agradables y cómodas para el desarrollo de las actividades?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">158</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Le gustaría ser parte de un programa de formación del SENA? En caso de estar en uno omita la pregunta.</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">8</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Le gustaría ser parte de un programa de formación del SENA? En caso de estar en uno omita la pregunta.</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">136</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Los aprendices SENA  mostraron conocimientos suficientes para resolver las preguntas o inquietudes?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">4</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Los aprendices SENA  mostraron conocimientos suficientes para resolver las preguntas o inquietudes?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Los procesos técnicos desarrollados son pertinentes y contribuyen al desarrollo agropecuario de  la región?</Data></Cell>
+    <Cell><Data ss:Type="String">No</Data></Cell>
+    <Cell><Data ss:Type="Number">2</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">¿Los procesos técnicos desarrollados son pertinentes y contribuyen al desarrollo agropecuario de  la región?</Data></Cell>
+    <Cell><Data ss:Type="String">Sí</Data></Cell>
+    <Cell><Data ss:Type="Number">181</Data></Cell>
+   </Row>
+  </Table>
+ </Worksheet>
+</Workbook>

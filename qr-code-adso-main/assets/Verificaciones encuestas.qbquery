@@ -1,0 +1,16 @@
+﻿
+USE bd_ser;
+
+SELECT COUNT(*) FROM tb_personas;
+
+SELECT * FROM tb_preguntas;
+
+SELECT * FROM tb_personas_respuestas;
+
+SELECT  t1.texto_pregunta, t2.texto_respuesta, count( num_doc ) AS documento
+FROM tb_preguntas t1, tb_posibles_respuestas t2, tb_personas_respuestas t3
+WHERE t1.id_pregunta = t2.id_pregunta
+AND t2.id_posible_respuesta = t3.id_posible_respuesta
+GROUP BY t1.texto_pregunta, t2.texto_respuesta;
+
+SELECT COUNT( DISTINCT num_doc ) FROM tb_personas_respuestas;

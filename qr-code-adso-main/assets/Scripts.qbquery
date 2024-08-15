@@ -1,0 +1,25 @@
+﻿
+
+USE bd_qr_code_sena;
+
+SHOW TABLES;
+
+
+SELECT * FROM tb_personas;
+SELECT * FROM tb_preguntas;
+SELECT * FROM tb_personas_respuestas;
+SELECT * FROM tb_personas_registros;
+
+SELECT *
+FROM tb_encuestas t1, tb_preguntas t2, tb_posibles_respuestas t3, tb_personas_respuestas t4
+WHERE t1.id_encuesta = t2.id_encuesta
+AND   t2.id_pregunta = t3.id_pregunta
+AND   t3.id_posible_respuesta = t4.id_posible_respuesta
+ORDER BY t2.id_pregunta, t4.fecha_registro;
+
+
+DELETE FROM tb_personas;
+DELETE FROM tb_personas_respuestas;
+DELETE FROM tb_personas_registros;
+
+

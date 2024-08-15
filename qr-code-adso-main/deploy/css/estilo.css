@@ -1,0 +1,35 @@
+#cabecera{
+	left: 0%;
+	width: 120px;
+	height: 80px;
+}
+#logo{
+	width: 120px;
+	height: 80px;
+}
+#leer_escarapela
+{
+	padding-top: 7px;
+}
+#cuadro
+{
+	height: 55%;
+
+}
+#cuadro2
+{
+	height: 100%;
+	margin-right: auto;
+  	padding-top: 20px;
+
+}
+#altContent
+{
+	align-items: center;
+}
+
+#title_estadistica
+{
+	font-size: 20px;
+	font-family: 'tahoma';
+}

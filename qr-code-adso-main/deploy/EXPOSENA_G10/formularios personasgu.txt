@@ -1,0 +1,31 @@
+	<div class="contenedor-usuario-no-bootstrap-1"> 
+	<div class="row">
+   
+               	<form >
+               	<div class="col-md-4">
+                    Documento: <input class="form-control" type="text" name="num_doc"  value="<?php echo $num_doc; ?>" size="20" placeholder="Ingrese Documento">
+                </div>
+                <div class="col-md-4">
+                    Nombres: <input type="text" name="nombres" class="form-control" size="20"  value="<?php echo $nombres; ?>" placeholder="Ingrese Nombres">
+                </div> 
+                <div class="col-md-4">
+                    Apellidos: <input type="text" name="apellidos" size="20" class="form-control" value="<?php echo $apellidos; ?>" placeholder="Ingrese Apellidos">
+                </div>
+    </div>   
+   	<div class="row">
+   	 				<div class="col-md-4">
+   	 				Genero<input type="text" name="genero" class="form-control" value="<?php echo $genero; ?>">
+                	</div>
+                	<div class="col-md-4">
+                    Rol: <input type="text" name="roles" class="form-control" value="<?php echo $rol; ?>">
+                    </div>                   
+                   	<div class="col-md-4">
+                    Digitador:<input type="text" value="<?php echo $id_digitador; ?>" name="id_digitador" class="form-control">       	    		
+    				</div>
+    </div>
+   	<div class="row">
+                	<input type="button"   onclick="location.href = 'form_personas.php'" value="regresar"  class="btn btn-default">         	 
+    </div>
+    </form>
+	</div>
+</div>
